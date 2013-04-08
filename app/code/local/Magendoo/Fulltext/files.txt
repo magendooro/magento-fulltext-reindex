@@ -1,0 +1,3 @@
+app/code/local/Magendoo/Fulltext/
+app/etc/modules/Magendoo_Fulltext.xml
+

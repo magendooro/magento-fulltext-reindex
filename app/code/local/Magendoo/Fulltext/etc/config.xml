@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+            <Magendoo_Fulltext>
+                    <version>0.0.1</version>
+            </Magendoo_Fulltext>
+	</modules>
+	<global>
+            <models>
+                <catalogsearch>
+                    <rewrite><indexer_fulltext>Magendoo_Fulltext_Model_Indexer_Fulltext</indexer_fulltext></rewrite>
+                </catalogsearch>
+                <fulltext>
+                    <class>Magendoo_Fulltext_Model</class>
+                    <resourceModel>fulltext_resource</resourceModel>
+                </fulltext>
+                <fulltext_resource>
+                    <class>Magendoo_Fulltext_Model_Resource</class>
+                </fulltext_resource>
+            </models>
+            <helpers>
+                <fulltext>
+                        <class>Magendoo_Fulltext_Helper</class>
+                </fulltext>
+            </helpers>
+	</global>
+</config>

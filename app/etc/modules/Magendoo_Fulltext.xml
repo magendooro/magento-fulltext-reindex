@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magendoo_Fulltext>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+            	<Mage_Catalog />
+            	<Mage_Index />
+            </depends>
+        </Magendoo_Fulltext>
+    </modules>
+</config>
