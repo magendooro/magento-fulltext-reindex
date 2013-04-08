@@ -4,9 +4,9 @@
 /**
  * CatalogSearch Fulltext Index into temporary table resource model
  *
- * @category    Mage
- * @package     Mage_CatalogSearch
- * @author      Magento Core Team <core@magentocommerce.com>
+ * @category    Magendoo
+ * @package     Magendoo_CatalogSearch
+ * @author      Emil [carco] Sirbu <emil.sirbu@gmail.com>
  */
 class Magendoo_Fulltext_Model_Resource_Fulltext extends Mage_CatalogSearch_Model_Resource_Fulltext
 {
